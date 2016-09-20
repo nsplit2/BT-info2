@@ -171,6 +171,8 @@ static bool cmd_local(int argc, char *argv[])
 
 typedef bool (*cmd_func_t)(int argc, char *argv[]);
 
+/* TODO: and & test more commands */
+
 static const struct {
 	const char *name;
 	cmd_func_t func;
